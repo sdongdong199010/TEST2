@@ -1,0 +1,64 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+input{outline: none; border:none;}
+body { color:#444; font:12px/14px "宋体","Arial Narrow"; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a {font:12px/14px "宋体","Arial Narrow"; color:#444; text-decoration:none; }
+a:hover { color:#E91456;  text-decoration:underline;}
+.layout{width:1190px; margin:0 auto; clear:both;}
+.pink{color:#E91456;}
+body,html{width:100%; height:100%;}
+
+/*header begin*/
+.header{height:24px; border-bottom:1px #e8e8e8 solid; background:#f7f7f7; padding-top:12px;}
+	.header img{width:18px; float:left; height:16px; margin-right:3px; }
+	.header-l{width:240px; height:16px; line-height:16px; float:left;}
+		.header-l span,.header-l b{float:left; margin-left:3px;}
+		.header-l b{ font-size:14px;}
+	.header-b{float:left; height:16px;  line-height:16px;}
+	.header-r{float:right; height:16px;}
+		.header a{font-size:12px; margin-right:12px; float:left; height:16px;  line-height:16px;}
+		
+/*banner begin*/
+.banner{height:34px; width:100%; border-bottom:2px solid #E91455; background:#fff; margin:0 auto;}	
+		/*上面的标题栏*/
+		.banner-t{height:34px;}
+			.banner-l{height:34px; width:170px; padding:0 10px; color:#fff; font:bold 16px/34px ""; float:left; background:#E91456; cursor:pointer; position:relative;}
+				.banner-l .goodTypes{float:left; width:188px; height:210px; background:#fff; position:absolute; left:0; top:34px; border:1px solid #c9c9c9; display:none; z-index:100;}
+					.banner-l .goodTypes a{float:left; height:35px; font:12px/35px ""; padding-left:16px; color:#444;}
+			.banner-c{height:34px; width:500px; margin-left:45px; float:left; font:bolder 18px/34px "" ;}
+				.banner-c a{ font:bolder 18px/34px "" ;}
+				.banner a:hover{color:#E91456;}
+				.banner-c a:visited{color:#E91456;}
+			.banner-r{height:34px; font:bold 12px/34px ""; color:#000; float:right; margin-right:195px;}
+		
+	
+/*infor begin    最下面的一些网站基本信息的介绍*/	
+.infor{height:226px; border-top:2px solid #E91455; padding-top:10px; background:#fff;}	
+	.infor-t{height:45px; width:1190px; margin-bottom:20px; background:url(../../img/infor-t.png) no-repeat center top; }
+	.infor-l{width:168px; height:150px; margin-left:-3px; background:url(../../img/infor-l.jpg) no-repeat left center; float:left;}
+	.infor-c{width:700px; height:150px; border-left:1px #ccc solid; border-right:1px #ccc solid; padding-left:20px; float:left;}
+		.infor-c p{width:120px; height:150px; margin-left:20px; float:left;}
+			.infor-c p b,.infor-c p a{display:block; line-height:30px;}
+	.infor-r{float:right;height:150px; width:300px; background:url(../../img/infor-r.jpg) no-repeat right center;}
+	
+/*footer begin*/
+.footer{height:150px; background:#f8f8f8;}
+	.footer .layout{text-align:center;}
+		.footer p{padding:10px 0;}
+		.footer span{color:#999; display:block; line-height:18px;}
+			.footer span a{color:#999;}
+		.footer i{display:block; padding:1px 0 10px;}
+		.footer h1{width:568px; height:42px; margin:0 auto;}
+			.footer h1 img{float:left; width:127px; height:42px; margin-right:20px;}
+			
+
+
+
+
+
+
+
+	
+	

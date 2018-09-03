@@ -1,0 +1,82 @@
+/*search begin*/
+.search{height:94px; background:#fff;}
+	.search-l{width:196px; height:74px; margin-top:10px; float:left;}
+	.search form{width:401px; height:32px; margin-left:218px; margin-top:30px; float:left; padding:1px; background:#e21357; }
+		.search input{width:309px; height:12px; float:left; background:#fff; padding:10px 5px; border:none;}
+		.search button{width:60px; height:15px; float:right; margin-right:12px; margin-top:10px; border:none; background:none;}
+			.search button img{float:left;}
+			.search button p{float:right; font:bold 12px/15px ""; color:#fff;}
+	.search-r{width:156px; height:20px ; border:1px solid #e8e8e8; margin-top:30px; float:right; padding-top:8px; position:relative; cursor:pointer;}
+		.search-r  img{float:left; margin-left:10px;}
+		.search-r p{position:absolute; left:25px; top:5px; width:14px; height:14px; line-height:14px; border-radius:7px; background:#E91456; color:#fff; text-align:center;}
+
+			
+/*furniture begin*/
+	/*下面是用于放大图片的遮罩和图片容器*/
+	#shade{width:100%; height:100%; background:#333; filter:alpha(opacity:70); opacity:0.7; position:fixed; left:0; top:0; display:none;}
+		#imgBox{width:600px; height:600px; position:fixed; margin:auto; left:0; right:0; top:0; bottom:0;display:none; background-size:cover;}
+		#imgBox p{width:30px; height:30px; position:absolute; right:-10px; top:-10px; border-radius:15px; background:#333; border:1px solid #fff; color:#fff; font:30px/25px ""; text-align:center; cursor:pointer;}
+	/* 下面是家具活动 页的样式设置 */
+	.furniture h1{height:390px; width:100%; margin:0 auto; background:url(../img/furniture1.jpg) no-repeat center center; background-size:cover;}
+	.furniture h2{height:1500px; width:1190px; background:url(../img/furniture2.jpg) no-repeat center center; background-size:cover; padding-top:238px;}
+		.furniture h2 a{display:block; height:400px; width:1190px; margin-bottom:260px;}
+		.furniture h2 a+a{display:block; height:590px; width:1190px; margin-bottom:0;}
+	.furniture .furnitures{width:1190px;}
+	.furniture  dl{width:280px; height:320px; border:1px solid #939589; float:left; margin:0 4px 10px;}
+		.furniture dl dt{height:280px; width:280px;}
+		.furniture dl dt img{height:280px; width:280px;}
+		.furniture dl dd{background:#fff831; padding-left:5px; height:32px; padding-top:8px;}
+
+/*fruit begin*/		
+	.fruit .layout>h1{height:348px; width:1190p; background:url(../img/fruit1.jpg) no-repeat center center; background-size:cover; margin-bottom:22px; }
+	.fruit ul{height:144px; border:1px solid #e8e8e8; width:1188px; padding-top:2px; margin-bottom:17px;}
+		.fruit ul li{width:384px; height:143px; border-right:1px solid #e8e8e8; float:left; padding-left:10px;}
+			.fruit ul li a{float:left; margin-right:10px;}
+				.fruit ul li a img{heigth:143px; width:143px;}
+				.fruit ul li span{width:230px; float:left; font:28px/80px ""; text-align:center;}
+				.fruit ul li p{width:230px; font:12px/14px ""; float:left; text-align:center;}
+	.fruit-l{float:left;}
+		.fruit-l .prefecture{height:365px; width:980px; margin-bottom:20px;}
+			.fruit-l h1{height:36px; width:980px; text-align:left; border-bottom:2px solid #E91456; padding-left:5px; font:12px/45px ""; margin-bottom:5px;}
+				.fruit-l h1 a{float:right; height:36px; font:12px/45px "";}
+					.fruit-l h1 a i{font-style:normal;}
+				.fruit-l h2{margin-left:5px; float:left;}
+					.fruit-l h2 img{width:228px; height:320px;}
+				.fruit-l dl{margin-left:13px; width:228px; height:320px; float:left;}
+					.fruit-l dl dt img{width:228px; height:228px; margin-bottom:10px;}
+					.fruit-l dl dd span{font:20px/45px "";}
+					.fruit-l dl dd a{display:block; font:11px/14px "";}
+	.fruit-r{float:right;}
+		.fruit-r h1{height:40px; width:165px; background:#eee; padding-left:25px; font:14px/40px "";}
+		.fruit-r .ranking{border:1px solid #eee; padding:5px; width:178px;}
+		.fruit-r .ranking dl{height:230px; width:178px; border-bottom:1px solid #eee;}
+		.fruit-r .ranking dl.last{border-bottom:none;}
+		.fruit-r .ranking dl dt img{height:178px; width:178px;}
+		.fruit-r .ranking dl dd h4{font:12px/28px ""; padding-left:5px;}
+		.fruit-r .ranking dl dd span{float:left; font:12px/28px "";}
+		.fruit-r .ranking dl dd p{float:right; font:12px/28px "";}
+		.fruit-r .ranking dl dd p i{font-style:normal;}
+/*oil begin*/
+.oil{background:#f3f2f8; margin-bottom:25px;}
+	.oil h1{width:1900px; height:665px; margin:0 auto; background:url(../img/oil1.png) no-repeat center center; background-size:cover;}
+	.oil h2{width:1200px; height:1139px; margin:0 auto; background:url(../img/oil2.png) no-repeat center center; background-size:cover; margin-bottom:5px;}
+	.oil h3{width:1900px; height:85px; margin:0 auto; background:url(../img/oil3.png) no-repeat center center; background-size:cover;}
+
+/*wine begin*/
+.oil{background:#b60000; margin-bottom:25px;}
+	.oil h1{width:100%; height:615px; margin:0 auto; background:url(../img/wine1.jpg) no-repeat center center; background-size:cover;}
+	.oil h2{width:1200px; height:348px; margin:0 auto; background:url(../img/wine2.jpg) no-repeat center center; background-size:cover;}
+	.oil h3{width:1200px; height:359px; margin:0 auto; background:url(../img/wine3.jpg) no-repeat center center; background-size:cover;}
+	.oil h4{width:1200px; height:333px; margin:0 auto; background:url(../img/wine4.jpg) no-repeat center center; background-size:cover;}
+	.oil h5{width:1200px; height:378px; margin:0 auto; background:url(../img/wine5.jpg) no-repeat center center; background-size:cover;}
+	.oil h6{width:1200px; height:388px; margin:0 auto; background:url(../img/wine6.jpg) no-repeat center center; background-size:cover;}
+
+
+
+
+
+
+
+
+	
+	

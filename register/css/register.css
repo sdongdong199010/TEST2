@@ -1,0 +1,75 @@
+﻿html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+input{outline: none; border:none;}
+body {background:#f7f7f7; color:#444; font:12px/14px "宋体","Arial Narrow";/* overflow-y:scroll;*/ overflow-x:hidden;}
+a {font:12px/14px "宋体","Arial Narrow"; color:#444; text-decoration:none; }
+a:hover { color:#E91456;  text-decoration:underline;}
+.layout{width:1190px; margin:0 auto; overflow:hidden; clear:both;}
+.pink{color:#E91456;}
+body,html{width:100%; height:100%;}
+
+/*search begin*/
+.search{height:130px; background:#fff; margin-top:10px; 	}
+	.search-l{width:296px; height:74px; margin-top:25px; float:left;}
+		.search-l img{float:left;}
+		.search-l span{float:left; height:74px; font:16px/74px "";}
+	.search-r{width:110px; height:30px ; border:1px solid #E5007F;  line-height:30px; margin-top:60px; float:right; padding:0 5px;}
+		.search-r a{color:#e91456;}
+
+	
+/*infor begin    最下面的一些网站基本信息的介绍*/	
+.infor{height:226px; border-top:2px solid #E91455; padding-top:10px;  background:#fff;}	
+	.infor-t{height:45px; width:1190px; margin-bottom:20px; background:url(../../img/infor-t.png) no-repeat center top; }
+	.infor-l{width:168px; height:150px; margin-left:-3px; background:url(../../img/infor-l.jpg) no-repeat left center; float:left;}
+	.infor-c{width:700px; height:150px; border-left:1px #ccc solid; border-right:1px #ccc solid; padding-left:20px; float:left;}
+		.infor-c p{width:120px; height:150px; margin-left:20px; float:left;}
+			.infor-c p b,.infor-c p a{display:block; line-height:30px;}
+	.infor-r{float:right;height:150px; width:300px; background:url(../../img/infor-r.jpg) no-repeat right center;}
+	
+/*footer begin*/
+.footer{height:150px; background:#f8f8f8;}
+	.footer .layout{text-align:center;}
+		.footer p{padding:10px 0;}
+		.footer span{color:#999; display:block; line-height:18px;}
+			.footer span a{color:#999;}
+		.footer i{display:block; padding:1px 0 10px;}
+		.footer h1{width:568px; height:42px; margin:0 auto;}
+			.footer h1 img{float:left; width:127px; height:42px; margin-right:20px;}
+/*register begin*/
+.register{height:400px; padding-top:30px;}
+	.register form{height:360px; background:#fff url(../img/register_bg.jpg) no-repeat right top; background-position:450px 0; padding-top:20px; padding-left:35px; position:relative;}
+		.register form h2{width:200px; height:60px; background:url(../img/error.jpg) no-repeat left top; background-size:cover; position:absolute; left:97px; top:59px; display:none; text-align:center; font:normal 18px/74px "黑体";}
+		#pwdError{top:115px;}
+		#confirmError{top:171px;}
+		.register form p{width:380px; height:36px; margin-bottom:20px;}
+			.register form p span{width:80px ; float:left; height:36px;  line-height:36px; }
+			.register form p input{padding-left:5px; width:283px; height:34px; border:1px #FC5253 solid; float:left; line-height:36px; }
+		.register form h1{padding-left:5px; width:283px; height:43px; font:normal 14px/50px ""; margin-left:80px;}
+			.register form h1 input{padding-left:0; width:15px; height:15px; float:left; border:1px solid #8e8e8e;  margin-top:15px;}
+			.register form h1 a{height:43px; font:normal 14px/43px "";}
+		.register form>a{display:block; width:275px; height:32px; border:1px #e21357 solid; background:#e21357; margin-left:85px; text-align:center; font:14px/32px ""; color:#fff; text-decoration:none;}
+		.register form>a:hover{background:#cc1c23;}
+		.register form h4{width:200px; height:45px; line-height:45px; margin-left:85px;}
+			.register form h4 a{color:#f00;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

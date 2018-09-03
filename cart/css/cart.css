@@ -1,0 +1,67 @@
+			
+/*search begin*/
+.search{height:100px;}
+	.search-l{width:296px; height:74px; margin-top:10px; float:left;}
+		.search-l img{float:left;}
+		.search-l span{float:left; height:74px; font:16px/74px "";}
+	.search-r{width:530px; height:45px ; margin-top:40px; float:right;}
+		.search-r li{background:url(../img/bg1.png) no-repeat left top; float:left; width:130px; height:45px; line-height:45px; text-align:center;}
+		.search-r li.active{background:url(../img/bg.png) no-repeat left top;}
+	
+/*cart. begin*/
+.cart{}
+	.cart .layout>p{height:46px; line-height:65px; padding-left:5px;}
+	.cart .layout>p a{float:right; height:46px; line-height:65px; color:#f00; padding-right:5px;}
+	.cart .layout>p a:hover{color:#f00; text-decoration:under-line;}
+	#goodList{border:1px solid #c9c9c9; width:1188px;}
+		/*上面的标题栏*/
+		#goodList ul{height:40px; width:1188px; border-bottom:1px solid #c9c9c9;}
+			#goodList ul li{float:left; line-height:40px; height:40px; padding-left:5px;}
+		/*购物车中商品信息的样式*/
+		#goodList .goods{height:160px; padding:20px 0 10px;}
+			#goodList .goods li>i{display:inline-block; vertical-align:middle; width:22px; height:22px; background:#EA1356; border-radius:11px; color:#EA1356; text-align:center; font:bold 14px/22px ""; cursor:pointer; margin-left:10px; margin-right:15px; }
+			#goodList .goods i.active{color:#fff;}
+			#goodList .goods img{display:inline-block; width:150px; height:150px; vertical-align:middle;}
+			#goodList .goods li p{ width:295px; margin-left:5px; line-height:24px;}
+			#goodList .goods li h4{margin-top:50px; line-height:30px; font-weight:normal;}
+			#goodList .goods li input{width:30px; height:14px; background:none; border:none; text-align:center;}
+			#goodList .goods #subtract,#goodList .goods #add{font:bold 18px/30px "";}
+			#goodList a{text-decoration:none;}
+		/*总计的样式*/
+		#goodList .goodTotal{height:129px; background:#eee; padding-top:1px;}
+			#goodList .goodTotal h1{font:12px/30px ""; float:left; width:255px; margin-right:410px; padding-left:5px; padding-top:10px; }
+				#goodList .goodTotal h1 input{border:4px solid #8f8f8f;}
+			#goodList .goodTotal h2{font:12px/30px ""; float:left; width:205px; height:126px; border-right:1px solid #c9c9c9;}
+				#goodList .goodTotal h2 strong{font-weight:normal;}
+			#goodList .goodTotal>a{font:16px/32px ""; float:left; width:176px; height:32px; text-align:center; color:#fff; background:#E21357; margin-left :60px; margin-top:85px;}
+		/*购物车为空时的样式*/
+		#blank{height:110px; padding-top:40px; text-align:center; display:block;}
+		
+/*like begin 猜你喜欢模块*/
+.like{height:415px; margin-bottom:22px;}	
+	.like .layout>p{height:45px; line-height:65px; padding-left:5px;}
+	.like-b{height:358px; border:1px solid #e8e8e8; width:1178px; padding-top:10px; padding-left:10px;}
+	.like-b dl{margin-right:15px; border:1px solid #fff; width:228px; height:348px; float:left;}
+	.like-b dl:hover{border:1px solid #f8f8f8;}
+		.like-b dt{margin-bottom:5px; width:228px; height:228px;}
+			.like-b dt img{width:228px; height:228px;}
+		.like-b dd{padding-left:5px; font:12px/14px "";}
+		.like-b dd a{display:block; height:30px; margin-bottom:8px;}
+		.like-b dd span{font-size:16px;}
+		.like-b .toCart{cursor:pointer; width:100px; height:30px; border:1px solid #d0d0d0; font:14px/30px ""; text-align:center; margin-left:64px;  margin-top:12px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

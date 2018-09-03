@@ -1,0 +1,695 @@
+<!DOCTYPE html >
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <script type="text/javascript" src="commen/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="commen/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- header  begin -->
+    <div class="header">
+        <div class="layout">
+            <div class="header-l">
+                <img src="img/tip1.png" alt="" />
+                <span>电话热线</span>
+                <b class="pink">400-630-0077</b>
+            </div>
+            <div class="header-b" id="toLogin">
+                <a href="register/login.html">[登陆]</a>
+                <a href="register/phone_register.html">[免费注册]</a>
+            </div>
+            <div class="header-b" id="logined">
+                Hi,<span>18255002974</span> 欢迎回嘉!
+                <a href="javascript:;" id="loginOut">[退出]</a>
+            </div>
+            <div class="header-r">
+                <a href="javascript:;">我的嘉</a>
+                <a href="javascript:;">我的订单</a>
+                <a href="javascript:;">客户服务</a>
+                <a href="javascript:;">电视会员激活</a>
+                <img src="img/tip2.png" alt="" />
+                <a href="javascript:;" style="margin-right:0;">手机嘉丽购</a>
+            </div>
+        </div>
+    </div>
+    <!-- search begin -->
+    <div class="search">
+        <div class="layout">
+            <div class="search-l">
+                <a href="../index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+            <form method="post" name="search" action="">
+                <input type="" placeholder="输入商品名称或是电视商品编号" />
+                <button class="btn"> <img src="img/tip4.png" alt="" /><p>搜索</p></button>
+            </form>
+            <div class="search-r">
+                <img src="img/tip3.png" alt="" />
+                <p class="num">0</p>
+                &nbsp;&nbsp;我的购物车
+            </div>
+        </div>
+    </div>
+
+    <!-- banner begin -->
+    <div class="banner">
+        <div class="layout">
+            <div class="banner-t">
+                <p class="banner-l">全部商品分类</p>
+                <p class="banner-c">
+                    <a href="javascript:;" class="pink">首页</a>&nbsp; |
+                    <a href="javascript:;">TV直播</a>&nbsp; |
+                    <a href="javascript:;">嘉丽全球购</a>&nbsp; |
+                    <a href="subject/fruit.html">水果生鲜</a>&nbsp;|
+                </p>
+                <p class="banner-r">
+                    订购热线 <b class="pink">400-630-0077</b>
+                </p>
+            </div>
+        </div>
+        <div class="sidebar-l">
+            <div>
+                <span>TV直播</span> <span>水果生鲜</span>
+                <p><span>最新上架</span> <span>热销排行</span></p>
+                <h2 class="hide"></h2>
+            </div>
+            <div>
+                <span>护肤 美妆</span>
+                <h2>
+                    <p><b><a href="javascript:;">面部护理</a></b> &gt;<a href="javascript:;">洁面乳</a> <a href="javascript:;">爽肤水</a> <a href="javascript:;">精华露</a> <a href="javascript:;">乳液/面霜</a> <a href="javascript:;">眼部护理</a> <a href="javascript:;">护肤套组</a>                        <a href="javascript:;">男士专区</a> <a href="javascript:;">面膜</a></p>
+                    <p><b><a href="javascript:;">全身护理</a></b> &gt;<a href="javascript:;">洗发护发</a> <a href="javascript:;">染发造型</a> <a href="javascript:;">沐浴</a> <a href="javascript:;">洗护套餐</a> <a href="javascript:;">脱毛</a> <a href="javascript:;">身体乳</a></p>
+                    <p><b><a href="javascript:;">女性护理</a></b> &gt;<a href="javascript:;">洗液</a></p>
+                    <p><b><a href="javascript:;">美容工具</a></b> &gt;<a href="javascript:;">剃须刀</a> <a href="javascript:;">脱毛器</a> <a href="javascript:;">掏耳勺</a> <a href="javascript:;">湿巾</a></p>
+                    <p><b> <a href="javascript:;">化妆用品</a></b> &gt;<a href="javascript:;">防晒隔离</a> <a href="javascript:;">BB霜</a> <a href="javascript:;">香水</a> <a href="javascript:;">彩妆套餐</a> <a href="javascript:;">美容美发</a> <a href="javascript:;">卸妆用品</a>                        <a href="javascript:;">睫毛膏</a> <a href="javascript:;">粉底散粉</a> <a href="javascript:;">皂</a></p>
+                </h2>
+            </div>
+            <div>
+                <span>服装 箱包</span>
+                <h2>
+                    <p><b><a href="javascript:;">内衣</a> </b> &gt;<a href="javascript:;">文胸</a> <a href="javascript:;">塑身</a> <a href="javascript:;">睡衣</a> <a href="javascript:;">家居服</a> <a href="javascript:;">袜子</a> <a href="javascript:;">套装</a> <a href="javascript:;">内裤</a>
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                    </p>
+                    <p><b><a href="javascript:;">女装</a></b> &gt;<a href="javascript:;">衬衫</a> <a href="javascript:;">T恤</a> <a href="javascript:;">针织</a> <a href="javascript:;">外套</a> <a href="javascript:;">羽绒服</a> <a href="javascript:;">裙子</a> <a href="javascript:;">女装</a>                        </p>
+                    <p><b><a href="javascript:;">男装</a></b> &gt;<a href="javascript:;">衬衫</a> <a href="javascript:;">T恤</a> <a href="javascript:;">针织</a> <a href="javascript:;">外套</a> <a href="javascript:;">羽绒服</a> <a href="javascript:;">男裤</a></p>
+                    <p><b><a href="javascript:;">配饰</a></b> &gt;<a href="javascript:;">眼镜</a> <a href="javascript:;">围巾</a> <a href="javascript:;">衣着配饰</a> <a href="javascript:;">皮带</a></p>
+                    <p><b><a href="javascript:;">男鞋</a></b> &gt;<a href="javascript:;">皮鞋</a> <a href="javascript:;">休闲鞋</a> <a href="javascript:;">凉鞋/沙滩鞋</a></p>
+                    <p><b><a href="javascript:;">女鞋</a></b> &gt;<a href="javascript:;">单鞋</a> <a href="javascript:;">休闲鞋</a> <a href="javascript:;">靴子</a></p>
+                    <p><b><a href="javascript:;">潮流包</a></b> &gt;<a href="javascript:;">双肩包</a> <a href="javascript:;">手提包</a> <a href="javascript:;">斜挎包</a> <a href="javascript:;">套组</a> <a href="javascript:;">手拿包</a> <a href="javascript:;">单肩包</a></p>
+                    <p><b><a href="javascript:;">功能箱包</a></b> &gt;<a href="javascript:;">拉杆箱</a> <a href="javascript:;">钱包</a></p>
+                    <p><b><a href="javascript:;">流行手表</a></b> &gt;</p>
+                    <p><b><a href="javascript:;">运动服</a></b> &gt;</p>
+                </h2>
+            </div>
+            <div>
+                <span>饰品 礼品</span>
+                <h2>
+                    <p><b>项链吊坠</b> &gt;</p>
+                    <p><b>手链手镯</b> &gt;</p>
+                    <p><b>戒指</b> &gt;</p>
+                    <p><b>耳环</b> &gt;</p>
+                    <p><b>套组</b> &gt;</p>
+                    <p><b>工艺品</b> &gt;</p>
+                    <p><b>发夹</b> &gt;</p>
+                    <p><b>胸针</b> &gt;</p>
+                    <p><b>钥匙扣</b> &gt;</p>
+                </h2>
+            </div>
+            <div>
+                <span>家具 日用</span>
+                <h2>
+                    <p><b>家纺</b> &gt;床品件套 被子/枕芯 凉席 电热毯</p>
+                    <p><b>生活日用</b> &gt;嗮衣架 收纳用品 清洁用品 安全套 雨伞 杯子</p>
+                    <p><b>厨房日用</b> &gt;锅具 餐具 刀具</p>
+                    <p><b>家居生活</b> &gt;礼品 麻将机 空气床 母婴用品</p>
+                </h2>
+            </div>
+            <div>
+                <span>家电 数码</span>
+                <h2>
+                    <p><b>电脑整机</b> &gt;台式 笔记本 平板电脑</p>
+                    <p><b>手机</b> &gt;</p>
+                    <p><b>数码摄像</b> &gt;数码相机 单反相机 数码摄像机 导航仪</p>
+                    <p><b>家电</b> &gt;空调 平板电视 冰箱 洗衣机 烟机/灶具</p>
+                    <p><b>家具电器</b> &gt;取暖器 电风扇 吸尘器 挂烫机 干衣机 吹风机 饮水机 空调扇 清洁机 足浴器</p>
+                    <p><b>厨房电器</b> &gt;料理/榨汁 豆浆机 电饭煲 电压力锅 微波炉 电磁炉 电水壶 电热锅 烤箱</p>
+                    <p><b>五金电器</b> &gt;水槽 水龙头 灯具</p>
+                </h2>
+            </div>
+            <div>
+                <span>酒水 保健</span>
+                <h2>
+                    <p><b>健身器材</b> &gt;跑步机 按摩器材 健身机 球类器械</p>
+                    <p><b>营养保健</b> &gt;保健品 干果/零食 酒水</p>
+                    <p><b>婴童用品</b> &gt;奶粉 寝具服饰 喂哺用品 玩具乐器 妈妈专区 营养辅食 尿裤湿巾 洗护用品 童车童床</p>
+                    <p><b>保险</b> &gt;</p>
+                    <p><b>旅游</b> &gt;国内旅游 国外旅游</p>
+                    <p><b>票务</b> &gt;</p>
+                    <p><b>减肥产品</b> &gt;</p>
+                    <p><b>汽车</b> &gt;</p>
+                </h2>
+            </div>
+        </div>
+        <div class="sidebar-r">
+            <h1>正在直播 <br />
+                <p>[17:00-17:29]</p>
+            </h1>
+            <dl>
+                <dt><a href="detail/20120159.html"><img src="img/ban5.jpg" /></a></dt>
+                <dd><a href="detail/20120159.html">海宁皮草拉帝 精致仿绵羊皮夹克1+1超值组</a><span class="pink">￥268</span></dd>
+            </dl>
+            <h2>嘉书</h2>
+        </div>
+        <ul id="list">
+            <li style="background:url(img/ban1.jpg)" class="active">
+                <a href="subject/furniture.html"></a>
+            </li>
+            <li style="background:url(img/ban2.jpg)">
+                <a href="subject/fruit.html"></a>
+            </li>
+            <li style="background:url(img/ban3.jpg)">
+                <a href="subject/wine.html"></a>
+            </li>
+            <li style="background:url(img/ban4.jpg)">
+                <a href="subject/oil.html"></a>
+            </li>
+        </ul>
+        <div id="banBtn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+        </div>
+    </div>
+
+    <!-- hot begin -->
+    <div class="hot">
+        <div class="layout">
+            <!-- 今日热播 -->
+            <div class="play">
+                <div class="top">
+                    <span class="active">今日热播</span>
+                    <span>昨日热播</span>
+                </div>
+                <div class="hot-l">
+                    <a href="javascript:;"><img src="img/hot0.jpg"></a>
+                </div>
+                <div class="hot-r">
+                    <!-- 今日热门 -->
+                    <div class="hot-current active">
+                        <dl>
+                            <dt>
+								<i>[17:00~17:29]</i>
+								<a href="detail/20180805.html"><img src="img/hot1.png"></a>
+							</dt>
+                            <dd>
+                                <a href="detail/20180806.html">汉宁皮草拉帝 精致仿绵羊皮夹克1+1超值组</a>
+                                <span class="pink">￥268.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<i>[17:30~17:59]</i>
+								<a href="javascript:;"><img src="img/hot2.png"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />森林吉普精品夹克款热能冲锋衣特卖组</a>
+                                <span class="pink">￥198.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<i>[18:00~18:29]</i>
+								<a href="javascript:;"><img src="img/hot3.png"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />20L禧又多茶籽橄榄调和油加赠组</a>
+                                <span class="pink">￥258.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<i>[18:30~18:59]</i>
+								<a href="javascript:;"><img src="img/hot4.png"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />浪莎高端专柜男士内衣6件组</a>
+                                <span class="pink">￥199.00</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- 昨日热门 -->
+                    <div class="hot-yesterday">
+
+                        <dl>
+                            <dt>
+								<i>[00：00~00:29]</i>
+								<a href="javascript:;"><img src="img/hot2.png"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />森林吉普精品夹克款热能冲锋衣特卖组</a>
+                                <span class="pink">￥198.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<i>[00：30~00:59]</i>
+								<a href="javascript:;"><img src="img/hot4.png"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />浪莎高端专柜男士内衣6件组</a>
+                                <span class="pink">￥199.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<i>[01：00~01:29]</i>
+								<a href="javascript:;"><img src="img/hot3.png"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />20L禧又多茶籽橄榄调和油加赠组</a>
+                                <span class="pink">￥258.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<i>[01：30~01:59]</i>
+								<a href="javascript:;"><img src="img/hot1.png"></a></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;">汉宁皮草拉帝 精致仿绵羊皮夹克1+1超值组</a>
+                                <span class="pink">￥268.00</span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- 热销推荐 -->
+            <div class="recommend">
+                <div class="top">
+                    <span>热销推荐</span>
+                </div>
+                <div class="hot-l">
+                    <a href="javascript:;"><img src="img/hot-l2.jpg"></a>
+                </div>
+                <div class="hot-r">
+                    <!-- 今日热门 -->
+                    <div class="hot-current active">
+                        <dl>
+                            <dt>
+								<a href="detail/20180807.html"><img src="img/hot4.jpg"></a></a>
+							</dt>
+                            <dd>
+                                <a href="detail/20180807.html"><br />凯瑞摩户外三防透气男女冲锋衣</a>
+                                <span class="pink">￥298.00</span>
+                                <i>已热销：<span>44</span>件</i>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<a href="detail/20180806.html"><img src="img/hot5.jpg"></a>
+							</dt>
+                            <dd>
+                                <a href="detail/20180806.html"><br />浪莎天鹅绒防刮加裆连裤袜12+10超值组</a>
+                                <span class="pink">￥199.00</span>
+                                <i>已热销：<span>270</span>件</i>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<a href="javascript:;"><img src="img/hot6.jpg"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />20L禧又多茶籽橄榄调和油加赠组</a>
+                                <span class="pink">￥258.00</span>
+                                <i>已热销：<span>1900</span>件</i>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+								<a href="javascript:;"><img src="img/hot7.jpg"></a>
+							</dt>
+                            <dd>
+                                <a href="javascript:;"><br />赫拉精品印花羊毛被1+1+1超值组</a>
+                                <span class="pink">￥299.00</span>
+                                <i>已热销：<span>65</span>件</i>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- floor begin -->
+    <div class="floor">
+        <div class="layout">
+            <!-- f1 begin -->
+            <div class="f1">
+                <div class="top" style="background:url(img/f1.png) no-repeat left center;">
+                    <a href="javascript:;">服装鞋帽</a>
+                </div>
+                <div class="f-l">
+                    <p>
+                        <a href="javascript:;">连衣裙</a>
+                        <a href="javascript:;">内衣</a>
+                        <a href="javascript:;">男士衬衫</a>
+                        <a href="javascript:;">男士T恤</a>
+                        <a href="javascript:;">男裤</a>
+                        <a href="javascript:;">时尚女包</a>
+                        <a href="javascript:;">男鞋</a>
+                        <a href="javascript:;">手表</a>
+                    </p>
+                    <a href="javascirpt:;"><img src="img/f1_1.jpg" alt="" /></a>
+                </div>
+                <div class="f-c">
+                    <a href="javascirpt:;"><img src="img/f1_2.jpg" alt="" /></a>
+                </div>
+                <div class="f-r">
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f1_3.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">迪格尔斯新款条纹男士翻领POLO衫4+1件组	</a>
+                            <span class="pink">￥298</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f1_4.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">比佛利高端全棉纳米抗污休闲裤2+1超值组	</a>
+                            <span class="pink">￥298</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f1_5.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">凯瑞摩户外三防透气男女冲锋衣	</a>
+                            <span class="pink">￥298</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f1_6.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">花花公子男士皮具尊享组	</a>
+                            <span class="pink">￥398</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f1_7.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">水心花时尚印花仿皮裤4+2超值抢购组	</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f1_8.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">诗尔莉大牌风范碎花飘逸长裙5件超值特供组</a>
+                            <span class="pink">￥168</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- f2 begin -->
+            <div class="f2">
+                <div class="top" style="background:url(img/f2.png) no-repeat left center;">
+                    <a href="javascript:;">个护美妆</a>
+                </div>
+                <div class="f-l">
+                    <p>
+                        <a href="javascript:;">面膜</a>
+                        <a href="javascript:;">染发造型</a>
+                        <a href="javascript:;">BB霜</a>
+                        <a href="javascript:;">香水</a>
+                        <a href="javascript:;">皂</a>
+                        <a href="javascript:;">乳业面霜</a>
+                        <a href="javascript:;">眼部护理</a>
+                    </p>
+                    <a href="javascirpt:;"><img src="img/f2_1.jpg" alt="" /></a>
+                </div>
+                <div class="f-c">
+                    <a href="javascirpt:;"><img src="img/f2_2.jpg" alt="" /></a>
+                </div>
+                <div class="f-r">
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f2_3.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">冰希黎boitown浪漫香氛情人节</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f2_4.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">韩束红石榴鲜活水盈透润保湿组</a>
+                            <span class="pink">￥299</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f2_5.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">韩束十效裸妆秘蜜滋养修护套组</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f2_6.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">（特卖）韩束红动中国十效裸妆修容霜套组</a>
+                            <span class="pink">￥239</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f2_7.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">一叶子蜂王浆4D提拉面膜尊享组</a>
+                            <span class="pink">￥299</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f2_8.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">英国Morgan’s经典蔷薇护肤嫩白组</a>
+                            <span class="pink">￥299</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- indexNav -->
+            <div class="indexNav">
+                <a href="javascirpt:;"><img src="img/nav1.jpg" alt="" /></a>
+            </div>
+            <!-- f3 begin -->
+            <div class="f3">
+                <div class="top" style="background:url(img/f3.png) no-repeat left center;">
+                    <a href="javascript:;">食品酒水</a>&nbsp; <a href="javascript:;">运动保健</a>
+                </div>
+                <div class="f-l">
+                    <p>
+                        <a href="javascript:;">水果</a>
+                        <a href="javascript:;">跑步机</a>
+                        <a href="javascript:;">按摩器材</a>
+                        <a href="javascript:;">健身机</a>
+                        <a href="javascript:;">保健品</a>
+                        <a href="javascript:;">干果/零</a>
+                        <a href="javascript:;">酒水</a>
+                        <a href="javascript:;">水果</a>
+                        <a href="javascript:;">大闸蟹</a>
+                    </p>
+                    <a href="javascirpt:;"><img src="img/f3_1.jpg" alt="" /></a>
+                </div>
+                <div class="f-c">
+                    <a href="javascirpt:;"><img src="img/f3_2.jpg" alt="" /></a>
+                </div>
+                <div class="f-r">
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f3_3.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">民生益谷灵牌骨密度养护套组</a>
+                            <span class="pink">￥298</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f3_4.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">”大西洋蓝“泰国进口沙丁鱼特惠组</a>
+                            <span class="pink">￥168</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f3_5.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">五粮液东方娇子12瓶组</a>
+                            <span class="pink">￥666</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f3_6.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">（海）吴三公鸡腿菇58g*6袋+吴三公银耳28g*2袋</a>
+                            <span class="pink">￥85</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f3_7.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">盈田丰盈之田大米40斤装秒杀组</a>
+                            <span class="pink">￥159</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f3_8.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">20L禧又多土榨纯香菜籽油超值秒杀组</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- f4 begin -->
+            <div class="f4">
+                <div class="top" style="background:url(img/f4.png) no-repeat left center;">
+                    <a href="javascript:;">家居日用</a> &nbsp;
+                    <a href="javascript:;">家用电器</a>
+                </div>
+                <div class="f-l">
+                    <p>
+                        <a href="javascript:;">床品件套</a>
+                        <a href="javascript:;">凉席</a>
+                        <a href="javascript:;">清洁用品</a>
+                        <a href="javascript:;">锅具</a>
+                        <a href="javascript:;">刀具</a>
+                        <a href="javascript:;">空调扇</a>
+                        <a href="javascript:;">料理/榨汁</a>
+                        <a href="javascript:;">电饭煲</a>
+                        <a href="javascript:;">电热锅</a>
+                    </p>
+                    <a href="javascirpt:;"><img src="img/f4_1.jpg" alt="" /></a>
+                </div>
+                <div class="f-c">
+                    <a href="javascirpt:;"><img src="img/f4_2.jpg" alt="" /></a>
+                </div>
+                <div class="f-r">
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f4_3.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">SAMPO联动式顶吸烟机灶具家庭套装（液化气）</a>
+                            <span class="pink">￥1699</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f4_4.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">吉尔佳洗衣液6+10组</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f4_5.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">德国*ALES不锈钢锅具加赠组</a>
+                            <span class="pink">￥398</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f4_6.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">韩妙滤净省水器 售价：299元</a>
+                            <span class="pink">￥0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f4_7.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">家洁灵浓缩酵素洗剂清洁套组</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="javascirpt:;"><img src="img/f4_8.jpg" alt="" /></a></dt>
+                        <dd>
+                            <a href="javascript:;">兔之力管道疏通清洁超值组</a>
+                            <span class="pink">￥199</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- infor begin  最下面的一些网站基本信息的介绍 -->
+    <div class="infor">
+        <div class="layout">
+            <div class="infor-t"></div>
+            <div class="infor-l">
+                <img src="" alt="" />
+            </div>
+            <div class="infor-c">
+                <p>
+                    <b>购物指南</b>
+                    <a href="javascript:;">新用户注册/激活</a>
+                    <a href="javascript:;">如何订购</a>
+                    <a href="javascript:;">常见问题</a>
+                </p>
+                <p>
+                    <b>会员中心</b>
+                    <a href="javascript:;">会员权益</a>
+                    <a href="javascript:;">美丽积分</a>
+                    <a href="javascript:;">订单查询</a>
+                    <a href="javascript:;">找回密码</a>
+                </p>
+                <p>
+                    <b>配送服务</b>
+                    <a href="javascript:;">物流跟踪</a>
+                    <a href="javascript:;">免运费政策</a>
+                </p>
+                <p>
+                    <b>支付说明</b>
+                    <a href="javascript:;">货到付款</a>
+                    <a href="javascript:;">在线支付</a>
+                </p>
+                <p>
+                    <b>售后服务</b>
+                    <a href="javascript:;">退换货政策</a>
+                    <a href="javascript:;">退换货流程</a>
+                    <a href="javascript:;">安全与保密</a>
+                </p>
+            </div>
+            <div class="infor-r"></div>
+        </div>
+    </div>
+
+    <!-- footer begin -->
+    <div class="footer">
+        <div class="layout">
+            <p>
+                <a href="javascript:;">商城首页</a> |
+                <a href="javascript:;">官网首页</a> |
+                <a href="javascript:;">供应商登录</a> |
+                <a href="javascript:;">供货联系</a> |
+                <a href="javascript:;">收藏我们</a> |
+                <a href="javascript:;">公司简介</a> |
+                <a href="javascript:;">媒体报道</a> |
+                <a href="javascript:;">嘉丽购招聘</a> |
+                <a href="javascript:;">官方微博</a> |
+                <a href="javascript:;">合作网站：范游网</a>
+            </p>
+            <span>嘉丽购物有限责任公司 Copyright 2010-2014 jialigou.All Rights Reserved</span>
+            <span>国家广电总局批号：广局[2010] 278号<a href="javascript:;">湘ICP备10203162号-3</a></span>
+            <i><a href="javascript:;"><img src="img/footer1.gif" alt="" /></a></i>
+            <h1>
+                <img src="img/footer2.jpg" alt="" />
+                <a href="javascript:;"><img src="img/footer3.jpg" alt="" /></a>
+                <img src="img/footer4.gif" alt="" />
+                <a href="javascript:;"><img src="img/footer5.gif" alt="" style="margin-right:0;" /></a>
+            </h1>
+        </div>
+    </div>
+</body>
+
+</html>

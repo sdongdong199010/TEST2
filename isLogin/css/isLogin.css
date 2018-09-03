@@ -1,0 +1,21 @@
+/*search begin*/
+.search{height:94px;}
+	.search-l{width:196px; height:74px; margin-top:10px; float:left;}
+	.search form{width:401px; height:32px; margin-left:218px; margin-top:30px; float:left; padding:1px; background:#e21357; }
+		.search input{width:309px; height:12px; float:left; background:#fff; padding:10px 5px; border:none;}
+		.search button{width:60px; height:15px; float:right; margin-right:12px; margin-top:10px; border:none; background:none;}
+			.search button img{float:left;}
+			.search button p{float:right; font:bold 12px/15px ""; color:#fff;}
+	.search-r{width:156px; height:20px ; border:1px solid #e8e8e8; margin-top:30px; float:right; padding-top:8px; position:relative; cursor:pointer;}
+		.search-r  img{float:left; margin-left:10px;}
+		.search-r p{position:absolute; left:25px; top:5px; width:14px; height:14px; line-height:14px; border-radius:7px; background:#E91456; color:#fff; text-align:center;}
+	
+			
+/*isLogin begin*/
+.isLogin{height:105px;}
+	.isLogin h1{text-align:center; font:24px/54px "";}
+	.isLogin p{text-align:center; font:14px/30px "";}
+	
+	
+	
+	

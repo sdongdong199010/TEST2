@@ -1,0 +1,23 @@
+			
+/*search begin*/
+.search{height:100px;}
+	.search-l{width:296px; height:74px; margin-top:10px; float:left;}
+		.search-l img{float:left;}
+		.search-l span{float:left; height:74px; font:16px/74px "";}
+	.search-r{width:530px; height:45px ; margin-top:40px; float:right;}
+		.search-r li{background:url(../img/bg1.png) no-repeat left top; float:left; width:130px; height:45px; line-height:45px; text-align:center;}
+		.search-r li.active{background:url(../img/bg.png) no-repeat left top;}
+	
+
+/*pay begin*/
+.pay{height:500px;}
+	.pay #box{width:300px; height:300px; margin:100px auto; border-top:10px solid #f00; border-right:10px solid #0f0; border-bottom:10px solid #00f; border-left:10px solid #000; margin-bottom:20px;}
+		.pay #box img{width:300px; height:300px; display:block;}
+	.pay h4{font:bold 24px/50px ""; text-align:center;}	
+	
+	
+	
+	
+	
+	
+	
